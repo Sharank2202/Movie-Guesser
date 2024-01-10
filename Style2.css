@@ -1,0 +1,36 @@
+body {
+    background-image: url('images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+h1
+{
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+    color: whitesmoke;
+    
+}
+p{
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.float-right{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+
+#keyboard{
+    /* font-size: 30px; */
+    color: whitesmoke;
+    font-family: cursive;
+}

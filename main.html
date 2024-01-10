@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Movie Guesser</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stycle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2 class="heading">Welcome to Movie Guesser</h2>
+    <br>
+    <div class="row">
+        <div class="column" onclick="openTab('b1');">
+          Hollywood
+        </div>
+        <div class="column" onclick="openTab('b2');">
+          Bollywood
+        </div>
+        <div class="column" onclick="openTab('b3');">
+          Tollywood
+        </div>
+      </div>
+      
+
+      <div id="b1" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <a href="holly.html">
+        <h2>Hollywood</h2>
+        </a>
+        <!-- <div class="btn-group">
+          
+          <button>Medium</button>
+          <button>Hard</button>
+        </div> -->
+        <p>Action, romance, comedy, fantasy -- Hollywood movies have it all. Our diverse collection delivers the best that Tinseltown has to offer.</p>
+      </div>
+      
+      <div id="b2" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <a href="bolly.html">
+        <h2>Bollywood</h2>
+      </a>
+        <!-- <div class="btn-group">
+          <button>Easy</button>
+          <button>Medium</button>
+          <button>Hard</button>
+        </div> -->
+        <p>Bollywood churns out hundreds of entertainers all through the year and it can be a challenge to know the top-rated movies. But fret not, here’s an extensive and elaborate list of the best Bollywood films that you can guess !</p>
+      </div>
+      
+      <div id="b3" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <a href="tolly.html">
+        <h2>Tollywood</h2>
+      </a>
+        <!-- <div class="btn-group">
+          <button>Easy</button>
+          <button>Medium</button>
+          <button>Hard</button>
+        </div> -->
+        
+        <p>Besides raking in big moolah at the box-office, Telugu films have been garnering critical acclaim in recent years with films like ‘Baahubali’ and ‘Mahanati’ pushing the bar of both Tollywood and Indian cinema on the global platform. Here are the list of Tollywood films that you can guess !</p>
+      </div>
+<script src="js/main.js"></script>
+</body>
+</html>

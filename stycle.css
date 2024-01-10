@@ -1,0 +1,68 @@
+body {
+    background-image: url('images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.heading{
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 160px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    background-image: url('images/card-back.jpg');
+}
+
+.column:after{
+	padding: 20px;
+}
+
+.containerTab {
+    background-color:black;
+    padding: 20px;
+    display: none;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+}
